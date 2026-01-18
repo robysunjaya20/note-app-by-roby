@@ -1,17 +1,53 @@
-# React + Vite
+# 📝 Note-app by Roby
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web-based note application built using **React + Vite + TailwindCSS**.  
+This app supports **custom tags**, **checklist/todo mode**, **pin notes**, **dark mode**, and stores all data using **LocalStorage** (no backend required).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+GitHub Pages:
+- https://USERNAME.github.io/note-app-by-roby/
 
-## React Compiler
+> Replace `USERNAME` with your GitHub username.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
+✅ Create new note  
+✅ Edit note  
+✅ Delete note  
+✅ Search notes  
+✅ Pin / Unpin notes 📌  
+✅ Dark mode 🌙  
+✅ Notes saved automatically using LocalStorage  
+✅ Tags / Categories (custom tags supported) 🏷️  
+✅ Tag management (delete tag & auto move notes to "umum")  
+✅ Checklist / To-do Mode ✅  
+✅ Toast notification after actions (saved, updated, deleted)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# note-app-by-roby
+---
+
+## 🛠️ Tech Stack
+- **React** (UI Library)
+- **Vite** (Fast build tool)
+- **TailwindCSS** (Modern styling)
+- **LocalStorage** (Data persistence)
+- **GitHub Pages** (Free hosting)
+
+---
+
+## 📂 Project Structure
+```txt
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── NoteForm.jsx
+│   └── NoteItem.jsx
+├── utils/
+│   ├── storage.js
+│   └── tagStorage.js
+├── App.jsx
+└── main.jsx
+public/
+└── logo-note.png
