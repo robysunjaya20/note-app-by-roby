@@ -5,7 +5,7 @@ export default function Navbar({ search, setSearch, darkMode, setDarkMode }) {
       {/* Logo + Title */}
       <div className="flex items-center gap-2">
         <img
-          src="/logo.png"
+          src="./logo.png"
           alt="Logo Note-app"
           className="w-8 h-8 object-contain"
         />
