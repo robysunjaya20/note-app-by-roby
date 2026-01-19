@@ -7,7 +7,7 @@ This app supports **custom tags**, **checklist/todo mode**, **pin notes**, **dar
 
 ## 🚀 Live Demo
 GitHub Pages:
-- [https://USERNAME.github.io/note-app-by-roby/](https://robysunjaya20.github.io/note-app-by-roby/)
+- (https://robysunjaya20.github.io/note-app-by-roby/)
 
 ---
 
